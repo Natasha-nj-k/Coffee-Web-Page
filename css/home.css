@@ -1,0 +1,164 @@
+/* general */
+* {
+  margin: 0;
+}
+
+/* body */
+body {
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20230416/pngtree-coffee-beautiful-background-image_2371590.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  font-family: "Sour Gummy", serif, Arial, sans-serif;
+}
+
+.main-container {
+  background: rgba(0, 0, 0, 0.7);
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+/* header */
+  header {
+    grid-area: header;
+    background: rgba(77, 75, 75, 0.7);
+    color: #fff;
+    padding: 1rem;
+  }
+
+.logo img {
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background: #413e3e;
+}
+
+/* main */
+  main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    background: rgba(39, 38, 38, 0.7);
+  }
+
+
+.home-content {
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  padding: 290px 300px;
+}
+
+.home-content h1 {
+  color: #865439;
+  text-align: center;
+  font-size: x-large;
+}
+
+.about-content{
+  text-align: center;
+  font-size: large;
+}
+
+.about-content h2{
+  color: #865439;
+  text-align: center;
+  font-size: x-large;
+}
+
+.menu-content{
+  text-align: center;
+  font-size: large;
+}
+
+.menu-content h2{
+  color: #865439;
+  text-align: center;
+  font-size: x-large;
+}
+
+.contact-content{
+text-align: center;
+font-size: large;
+}
+
+.contact-content h2{
+  color: #865439;
+  text-align: center;
+  font-size: x-large;
+}
+
+.contact-info ul {
+  font-size: larger;
+  font-weight: bold;
+  padding: 30px 40px;
+}
+
+.contact-info ul li{
+  list-style: none;
+}
+
+.contact-form{
+  font-weight: bold;
+  font-size: x-large;
+  align-content: center;
+}
+
+button {
+  border: none;
+  background-color: #6F4E37;
+  color: #000;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a0522d;
+  color: #000000f5;
+}
+
+/* footer */
+footer {
+  grid-area: footer;
+  text-align: center;
+  padding: 1rem;
+  background: rgba(133, 123, 123, 0.651);
+  color: #fff;
+}
