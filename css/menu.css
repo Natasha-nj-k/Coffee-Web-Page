@@ -1,0 +1,95 @@
+/* Body */
+body {
+  margin: 0;
+  font-family: "Sour Gummy", serif, Arial, sans-serif;
+  color: #333;
+  background-image: url("https://img.freepik.com/free-photo/anime-coffee-shop-illustration_23-2151764655.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+/* Header */
+.menu-header {
+  background: #6b4e31;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.menu-header h1 {
+  font-size: 2.5rem;
+}
+
+.menu-header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+/* Menu Container */
+.menu-container {
+  color: #fff;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: rgb(12, 12, 12);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-section {
+  margin-bottom: 2rem;
+}
+
+.menu-section h2 {
+  border-bottom: 2px solid #6b4e31;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  color: #6b4e31;
+}
+
+/* Menu List */
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-item:hover {
+  background: #464444;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.item-price {
+  color: #6b4e31;
+  font-weight: bold;
+}
+
+/* Footer */
+.menu-footer {
+  background: #6b4e31;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
